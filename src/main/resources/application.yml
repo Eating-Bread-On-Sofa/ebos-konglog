@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/konglog?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: lyl222
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+server:
+  port: 8060
