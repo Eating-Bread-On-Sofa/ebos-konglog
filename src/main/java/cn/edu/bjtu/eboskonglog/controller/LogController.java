@@ -204,7 +204,6 @@ public class LogController {
         }
     }
 
-
     @GetMapping("/ping")
     @CrossOrigin
     public String ping(){
