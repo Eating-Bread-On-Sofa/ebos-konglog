@@ -3,7 +3,7 @@ spring:
     driver-class-name:  com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/konglog?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: lyl222
+    password: edgexkonglog
   jpa:
     hibernate:
       ddl-auto: update
@@ -12,4 +12,4 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
 server:
-  port: 8060
+  port: 8866
