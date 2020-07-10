@@ -10,7 +10,7 @@
     </parent>
     <groupId>cn.edu.bjtu</groupId>
     <artifactId>ebos-konglog</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-firewall</version>
     <name>ebos-konglog</name>
     <description>kong gateway http-logServer</description>
 
@@ -59,12 +59,12 @@
             <artifactId>UserAgentUtils</artifactId>
             <version>1.21</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-devtools</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--            <optional>true</optional>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
