@@ -149,6 +149,17 @@ public class LogController {
 //        System.out.println(o_log);
     }
 
+    @PostMapping("/user")
+    @CrossOrigin
+    public void insertUserLog(@RequestBody String userLog){
+        JSONObject jsonObject = CommonUtils.JSONparse(userLog);
+        Log u_log = JSON.parseObject(jsonObject.toJSONString(), Log.class);
+        u_log.setCategory("用户管理");
+        u_log.setCategoryEn("user");
+        logService.save(u_log);
+//        System.out.println(o_log);
+    }
+
     @GetMapping("/category/{category}")
     @CrossOrigin
     public CommonResult<Log> getLogByCategory(@PathVariable String category){
